@@ -5,7 +5,7 @@ class Pipe {
     constructor() {
         this.#privateSize = [54, 405];
         this.#privatePosX
-        this.#privatePosY = 0
+        this.#privatePosY = -100
     }
 
     setPrivatePosX(v) { this.#privatePosX = v }
@@ -17,7 +17,7 @@ class Pipe {
 
 
     draw(ctx, canvas, index, img, speed) {
-        const gap = 90
+        const gap = 150
         // изображение pipe источник
         const pipeUPSource = {
             x: 555,

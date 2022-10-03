@@ -50,7 +50,7 @@ class Bird {
     }
 
     initFly(){
-        let moveup = () => {this.#privatePosY -= 25   }
+        let moveup = () => {this.#privatePosY -= 30   }
         document.addEventListener("keydown", moveup)
         document.addEventListener("click", moveup)
 

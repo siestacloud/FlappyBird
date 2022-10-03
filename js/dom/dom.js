@@ -16,6 +16,7 @@ class DOMControl {
     setPrivateCanvas() { this.#privateCanvas = document.querySelector(".canvas") }
     GetPrivateCanvas() { return this.#privateCanvas }
     
+    
 
 }
 
