@@ -1,5 +1,5 @@
 # FlappyBirdJS
-Реализация игры flappy bird на JS
+Реализация игры flappy bird на JS.
 
 
 
